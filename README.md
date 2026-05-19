@@ -6,6 +6,11 @@ This repository contains the implementation and evaluation of Dataset Condensati
 
 Training deep learning models on time series data requires extensive datasets, which introduces prohibitive computational bottlenecks for downstream tasks like Neural Architecture Search (NAS), hyperparameter optimization, and continual learning. Standard dataset condensation frameworks fail on sequential data because they operate strictly in the spatial/temporal domains, obfuscating essential spectral topologies like periodicity and harmonics. This implementation circumvents these limitations by optimizing the synthetic data across both the Time Domain and Frequency Domain.
 
+The original paper
+
+Z. Liu, K. Hao, G. Zheng, and Y. Yu (2024) Dataset Condensation for Time Series Classification via Dual Domain Matching. In Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining, pp. 1980–1991.
+
+
 ## Key Features & Mathematical Framework
 
 ### 1. K-Means Coreset Initialization
